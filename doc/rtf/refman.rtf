@@ -1,0 +1,2578 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s6\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs12\cgrid \sbasedon0 \snext0 heading 6;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\*\listtable
+{\list\listtemplateid1
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8662 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid1}
+{\list\listtemplateid2
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid2}
+{\list\listtemplateid3
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid3}
+}
+{\listoverridetable
+{\listoverride\listid1\listoverridecount0\ls1}
+{\listoverride\listid2\listoverridecount0\ls2}
+{\listoverride\listid3\listoverridecount0\ls3}
+}
+{\info 
+{\title {\comment VinLab Project  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+1.0 \par
+}}VinLab Project}
+{\comment Generated by doxygen 1.14.0.}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt VinLab Project}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version 1.0\par\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\par \pard\plain 
+\pard\plain \s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+VinLab Project Documentation }\par \pard\plain 
+{\tc\tcl1 \v VinLab Project Documentation}
+{\xe \v VinLab Project Documentation}
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D0\'92\'D0\'B2\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5
+\par}
+{\tc\tcl2 \v \'D0\'92\'D0\'B2\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5}
+\'D0\'9F\'D1\'80\'D0\'BE\'D0\'B5\'D0\'BA\'D1\'82 VinLab \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D1\'8F\'D0\'B5\'D1\'82 \'D1\'81\'D0\'BE\'D0\'B1\'D0\'BE\'D0\'B9 \'D1\'81\'D0\'B8\'D1\'81\'D1\'82\'D0\'B5\'D0\'BC\'D1\'83 \'D1\'83\'D0\'BF\'D1\'80\'D0\'B0\'D0\'B2\'D0\'BB\'D0\'B5\'D0\'BD\'D0\'B8\'D1\'8F \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0\'D0\'BC\'D0\'B8 \'D1\'81 \'D0\'BF\'D0\'BE\'D0\'B4\'D0\'B4\'D0\'B5\'D1\'80\'D0\'B6\'D0\'BA\'D0\'BE\'D0\'B9 \'D0\'BE\'D0\'BF\'D0\'B5\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D0\'B9 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8 \'D0\'B8 \'D1\'83\'D1\'87\'D0\'B5\'D1\'82\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BE\'D0\'BA.\par}
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D0\'9E\'D1\'81\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'BD\'D1\'8B\'D0\'B5 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81\'D1\'8B
+\par}
+{\tc\tcl2 \v \'D0\'9E\'D1\'81\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'BD\'D1\'8B\'D0\'B5 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81\'D1\'8B}
+{
+\par
+\pard\plain {\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af0\langfe2052\dbch\af0\afs24\lang1081\loch\f0\fs24\lang1033{\listtext\pard\plain \hich\af3\dbch\af3\loch\f8 \'01\u8226\tab}\ilvl0\ls1 \li0\ri0\lin0\rin0\fi-360\tx360\li360\ri0\lin360\rin0\fi-360\kerning1\hich\af4\dbch\af5\rtlch \ltrch\loch\fs20
+{\b Product}: \'D0\'91\'D0\'B0\'D0\'B7\'D0\'BE\'D0\'B2\'D1\'8B\'D0\'B9 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0\par
+\pard\plain {\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af0\langfe2052\dbch\af0\afs24\lang1081\loch\f0\fs24\lang1033{\listtext\pard\plain \hich\af3\dbch\af3\loch\f8 \'01\u8226\tab}\ilvl0\ls1 \li0\ri0\lin0\rin0\fi-360\tx360\li360\ri0\lin360\rin0\fi-360\kerning1\hich\af4\dbch\af5\rtlch \ltrch\loch\fs20
+{\b DiscountedProduct}: \'D0\'A2\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9\par
+\pard\plain {\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af0\langfe2052\dbch\af0\afs24\lang1081\loch\f0\fs24\lang1033{\listtext\pard\plain \hich\af3\dbch\af3\loch\f8 \'01\u8226\tab}\ilvl0\ls1 \li0\ri0\lin0\rin0\fi-360\tx360\li360\ri0\lin360\rin0\fi-360\kerning1\hich\af4\dbch\af5\rtlch \ltrch\loch\fs20
+{\b Buyable}: \'D0\'98\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'B0\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'B3\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0\par}
+\par
+\par}
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D0\'98\'D1\'81\'D0\'BF\'D0\'BE\'D0\'BB\'D1\'8C\'D0\'B7\'D0\'BE\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5
+\par}
+{\tc\tcl2 \v \'D0\'98\'D1\'81\'D0\'BF\'D0\'BE\'D0\'BB\'D1\'8C\'D0\'B7\'D0\'BE\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5}
+\'D0\'9F\'D1\'80\'D0\'B8\'D0\'BC\'D0\'B5\'D1\'80 \'D0\'B8\'D1\'81\'D0\'BF\'D0\'BE\'D0\'BB\'D1\'8C\'D0\'B7\'D0\'BE\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D1\'8F \'D1\'81\'D0\'B8\'D1\'81\'D1\'82\'D0\'B5\'D0\'BC\'D1\'8B: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid Product laptop = {\cf17 new} Product(1, {\cf22 "Laptop"}, 1000.0, 10);\par
+{\cf18 double} total = laptop.buy(2); {\cf20 // \'D0\'9F\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B0 2 \'D0\'BD\'D0\'BE\'D1\'83\'D1\'82\'D0\'B1\'D1\'83\'D0\'BA\'D0\'BE\'D0\'B2}\par
+}
+ \par}
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespace Index\par \pard\plain 
+{\tc \v Namespace Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Namespace List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all namespaces with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b entities} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b interfaces} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b main} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Hierarchical Index\par \pard\plain 
+{\tc \v Hierarchical Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class Hierarchy\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid This inheritance list is sorted roughly, but not completely, alphabetically:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+interfaces.Buyable\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABW \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+entities.Product\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAW \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+entities.DiscountedProduct\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+}\par
+main.Main\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Index\par \pard\plain 
+{\tc \v Class Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the classes, structs, unions and interfaces with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b interfaces.Buyable} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'98\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 \'D0\'BE\'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BB\'D1\'8F\'D1\'8E\'D1\'89\'D0\'B8\'D0\'B9 \'D0\'BF\'D0\'BE\'D0\'B2\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'B0\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'B3\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b entities.DiscountedProduct} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9, \'D0\'BD\'D0\'B0\'D1\'81\'D0\'BB\'D0\'B5\'D0\'B4\'D1\'83\'D0\'B5\'D1\'82\'D1\'81\'D1\'8F \'D0\'BE\'D1\'82 {\b Product} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b main.Main} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b entities.Product} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9E\'D1\'81\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'BD\'D0\'BE\'D0\'B9 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D1\'8F\'D1\'8E\'D1\'89\'D0\'B8\'D0\'B9 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \'D0\'B2 \'D1\'81\'D0\'B8\'D1\'81\'D1\'82\'D0\'B5\'D0\'BC\'D0\'B5 Vinlab })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Index\par \pard\plain 
+{\tc \v File Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+File List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all files with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b src/main/{\b Main.java} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'93\'D0\'BB\'D0\'B0\'D0\'B2\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D0\'BF\'D1\'80\'D0\'B8\'D0\'BB\'D0\'BE\'D0\'B6\'D0\'B5\'D0\'BD\'D0\'B8\'D1\'8F Vinlab })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/main/entities/{\b DiscontedProduct.java} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/main/entities/{\b Product.java} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'B4\'D0\'BB\'D1\'8F \'D1\'81\'D0\'B8\'D1\'81\'D1\'82\'D0\'B5\'D0\'BC\'D1\'8B Vinlab })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/main/interface/{\b Buyable.java} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'98\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 \'D0\'B4\'D0\'BB\'D1\'8F \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'BE\'D0\'B2, \'D0\'BA\'D0\'BE\'D1\'82\'D0\'BE\'D1\'80\'D1\'8B\'D0\'B5 \'D0\'BC\'D0\'BE\'D0\'B6\'D0\'BD\'D0\'BE \'D0\'BA\'D1\'83\'D0\'BF\'D0\'B8\'D1\'82\'D1\'8C })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespace Documentation\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Package entities\par \pard\plain 
+{\tc\tcl2 \v entities}
+{\xe \v entities}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b DiscountedProduct}{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9, \'D0\'BD\'D0\'B0\'D1\'81\'D0\'BB\'D0\'B5\'D0\'B4\'D1\'83\'D0\'B5\'D1\'82\'D1\'81\'D1\'8F \'D0\'BE\'D1\'82 {\b Product}. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Product}{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9E\'D1\'81\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'BD\'D0\'BE\'D0\'B9 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D1\'8F\'D1\'8E\'D1\'89\'D0\'B8\'D0\'B9 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \'D0\'B2 \'D1\'81\'D0\'B8\'D1\'81\'D1\'82\'D0\'B5\'D0\'BC\'D0\'B5 Vinlab. }}\par}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Package interfaces\par \pard\plain 
+{\tc\tcl2 \v interfaces}
+{\xe \v interfaces}
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+interface {\b Buyable}{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'98\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 \'D0\'BE\'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BB\'D1\'8F\'D1\'8E\'D1\'89\'D0\'B8\'D0\'B9 \'D0\'BF\'D0\'BE\'D0\'B2\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'B0\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'B3\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Package main\par \pard\plain 
+{\tc\tcl2 \v main}
+{\xe \v main}
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Main}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Documentation{\tc \v Class Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+interfaces.Buyable Interface Reference\par \pard\plain 
+{\tc\tcl2 \v interfaces.Buyable}
+{\xe \v interfaces.Buyable}
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'98\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 \'D0\'BE\'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BB\'D1\'8F\'D1\'8E\'D1\'89\'D0\'B8\'D0\'B9 \'D0\'BF\'D0\'BE\'D0\'B2\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'B0\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'B3\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+Inheritance diagram for interfaces.Buyable:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "interfaceinterfaces_1_1_buyable.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b buy} (int quantity)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'92\'D1\'8B\'D0\'BF\'D0\'BE\'D0\'BB\'D0\'BD\'D1\'8F\'D0\'B5\'D1\'82 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+boolean {\b isAvailable} (int quantity)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D1\'80\'D0\'BE\'D0\'B2\'D0\'B5\'D1\'80\'D1\'8F\'D0\'B5\'D1\'82 \'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'BD\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'B4\'D0\'BB\'D1\'8F \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'98\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 \'D0\'BE\'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BB\'D1\'8F\'D1\'8E\'D1\'89\'D0\'B8\'D0\'B9 \'D0\'BF\'D0\'BE\'D0\'B2\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'B0\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'B3\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'94\'D0\'B0\'D0\'BD\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D1\'8F\'D0\'B5\'D1\'82 \'D0\'BC\'D0\'B5\'D1\'82\'D0\'BE\'D0\'B4\'D1\'8B \'D0\'B4\'D0\'BB\'D1\'8F \'D1\'80\'D0\'B0\'D0\'B1\'D0\'BE\'D1\'82\'D1\'8B \'D1\'81 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'BE\'D0\'B9 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'BE\'D0\'B2 \'D0\'B2 \'D1\'81\'D0\'B8\'D1\'81\'D1\'82\'D0\'B5\'D0\'BC\'D0\'B5 Vinlab. \'D0\'A0\'D0\'B5\'D0\'B0\'D0\'BB\'D0\'B8\'D0\'B7\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'8D\'D1\'82\'D0\'BE\'D0\'B3\'D0\'BE \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81\'D0\'B0 \'D0\'BE\'D0\'B1\'D1\'8F\'D0\'B7\'D0\'B0\'D1\'82\'D0\'B5\'D0\'BB\'D1\'8C\'D0\'BD\'D0\'B0 \'D0\'B4\'D0\'BB\'D1\'8F \'D0\'B2\'D1\'81\'D0\'B5\'D1\'85 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81\'D0\'BE\'D0\'B2 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'BE\'D0\'B2, \'D0\'BA\'D0\'BE\'D1\'82\'D0\'BE\'D1\'80\'D1\'8B\'D0\'B5 \'D0\'B4\'D0\'BE\'D0\'BB\'D0\'B6\'D0\'BD\'D1\'8B \'D0\'BF\'D0\'BE\'D0\'B4\'D0\'B4\'D0\'B5\'D1\'80\'D0\'B6\'D0\'B8\'D0\'B2\'D0\'B0\'D1\'82\'D1\'8C \'D0\'BE\'D0\'BF\'D0\'B5\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8E \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8. \par
+}{
+Definition at line {\b 19} of file {\b Buyable.java}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v buy\:interfaces.Buyable}
+{\xe \v interfaces.Buyable\:buy}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double interfaces.Buyable.buy (int quantity)}}
+\par
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'92\'D1\'8B\'D0\'BF\'D0\'BE\'D0\'BB\'D0\'BD\'D1\'8F\'D0\'B5\'D1\'82 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i quantity} \cell }{- \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'B4\'D0\'BB\'D1\'8F \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8 \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double - \'D0\'BE\'D0\'B1\'D1\'89\'D0\'B0\'D1\'8F \'D1\'81\'D1\'82\'D0\'BE\'D0\'B8\'D0\'BC\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8\par
+}}\'D0\'9C\'D0\'B5\'D1\'82\'D0\'BE\'D0\'B4 \'D0\'B2\'D1\'8B\'D0\'BF\'D0\'BE\'D0\'BB\'D0\'BD\'D1\'8F\'D0\'B5\'D1\'82 \'D0\'BE\'D0\'BF\'D0\'B5\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8E \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8 \'D1\'83\'D0\'BA\'D0\'B0\'D0\'B7\'D0\'B0\'D0\'BD\'D0\'BD\'D0\'BE\'D0\'B3\'D0\'BE \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'B0 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0. \'D0\'92\'D0\'BE\'D0\'B7\'D0\'B2\'D1\'80\'D0\'B0\'D1\'89\'D0\'B0\'D0\'B5\'D1\'82 \'D0\'BE\'D0\'B1\'D1\'89\'D1\'83\'D1\'8E \'D1\'81\'D1\'82\'D0\'BE\'D0\'B8\'D0\'BC\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8 \'D1\'81 \'D1\'83\'D1\'87\'D0\'B5\'D1\'82\'D0\'BE\'D0\'BC \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BE\'D0\'BA \'D0\'B8 \'D0\'BD\'D0\'B0\'D0\'BB\'D0\'BE\'D0\'B3\'D0\'BE\'D0\'B2.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Exceptions\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i IllegalArgumentException} \cell }{\'D0\'B5\'D1\'81\'D0\'BB\'D0\'B8 quantity <= 0 \cell }
+{\row }
+}
+}{
+Implemented in {\b entities.DiscountedProduct} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}}), and {\b entities.Product} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v isAvailable\:interfaces.Buyable}
+{\xe \v interfaces.Buyable\:isAvailable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+boolean interfaces.Buyable.isAvailable (int quantity)}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D1\'80\'D0\'BE\'D0\'B2\'D0\'B5\'D1\'80\'D1\'8F\'D0\'B5\'D1\'82 \'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'BD\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'B4\'D0\'BB\'D1\'8F \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i quantity} \cell }{- \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'B4\'D0\'BB\'D1\'8F \'D0\'BF\'D1\'80\'D0\'BE\'D0\'B2\'D0\'B5\'D1\'80\'D0\'BA\'D0\'B8 \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+boolean - true \'D0\'B5\'D1\'81\'D0\'BB\'D0\'B8 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'B5\'D0\'BD, false \'D0\'B2 \'D0\'BF\'D1\'80\'D0\'BE\'D1\'82\'D0\'B8\'D0\'B2\'D0\'BD\'D0\'BE\'D0\'BC \'D1\'81\'D0\'BB\'D1\'83\'D1\'87\'D0\'B0\'D0\'B5\par
+}}\'D0\'9C\'D0\'B5\'D1\'82\'D0\'BE\'D0\'B4 \'D0\'BF\'D1\'80\'D0\'BE\'D0\'B2\'D0\'B5\'D1\'80\'D1\'8F\'D0\'B5\'D1\'82, \'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'BD\'D0\'BE \'D0\'BB\'D0\'B8 \'D1\'83\'D0\'BA\'D0\'B0\'D0\'B7\'D0\'B0\'D0\'BD\'D0\'BD\'D0\'BE\'D0\'B5 \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'B4\'D0\'BB\'D1\'8F \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8 \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5. \par
+}{
+Implemented in {\b entities.Product} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABI \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this interface was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/main/interface/{\b Buyable.java}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+entities.DiscountedProduct Class Reference\par \pard\plain 
+{\tc\tcl2 \v entities.DiscountedProduct}
+{\xe \v entities.DiscountedProduct}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9, \'D0\'BD\'D0\'B0\'D1\'81\'D0\'BB\'D0\'B5\'D0\'B4\'D1\'83\'D0\'B5\'D1\'82\'D1\'81\'D1\'8F \'D0\'BE\'D1\'82 {\b Product}. }}\par
+Inheritance diagram for entities.DiscountedProduct:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classentities_1_1_discounted_product.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b DiscountedProduct} (int {\b id}, String {\b name}, double {\b price}, int {\b stockQuantity}, double {\b discountPercent})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D1\'83\'D0\'BA\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getDiscountedPrice} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D1\'86\'D0\'B5\'D0\'BD\'D1\'83 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b buy} (int quantity)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'92\'D1\'8B\'D0\'BF\'D0\'BE\'D0\'BB\'D0\'BD\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getDiscountPercent} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D1\'80\'D0\'B0\'D0\'B7\'D0\'BC\'D0\'B5\'D1\'80 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B8 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setDiscountPercent} (double {\b discountPercent})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D1\'80\'D0\'B0\'D0\'B7\'D0\'BC\'D0\'B5\'D1\'80 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B8 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+String {\b toString} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A1\'D1\'82\'D1\'80\'D0\'BE\'D0\'BA\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B5 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9 }{
+}\par
+}\par}
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Public Member Functions inherited from {\b entities.Product}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Product} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D1\'83\'D0\'BA\'D1\'82\'D0\'BE\'D1\'80 \'D0\'BF\'D0\'BE \'D1\'83\'D0\'BC\'D0\'BE\'D0\'BB\'D1\'87\'D0\'B0\'D0\'BD\'D0\'B8\'D1\'8E }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Product} (int {\b id}, String {\b name}, double {\b price}, int {\b stockQuantity})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'B0\'D1\'80\'D0\'B0\'D0\'BC\'D0\'B5\'D1\'82\'D1\'80\'D0\'B8\'D0\'B7\'D0\'B8\'D1\'80\'D0\'BE\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BA\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D1\'83\'D0\'BA\'D1\'82\'D0\'BE\'D1\'80 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Product} (int {\b id}, String {\b name}, double {\b price}, int {\b stockQuantity}, String {\b description})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BA\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D1\'83\'D0\'BA\'D1\'82\'D0\'BE\'D1\'80 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+boolean {\b isAvailable} (int quantity)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D1\'80\'D0\'BE\'D0\'B2\'D0\'B5\'D1\'80\'D1\'8F\'D0\'B5\'D1\'82 \'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'BD\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getId} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setId} (int {\b id})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+String {\b getName} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setName} (String {\b name})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getPrice} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D1\'86\'D0\'B5\'D0\'BD\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setPrice} (double {\b price})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D1\'86\'D0\'B5\'D0\'BD\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getStockQuantity} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setStockQuantity} (int {\b stockQuantity})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+String {\b getDescription} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BE\'D0\'BF\'D0\'B8\'D1\'81\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setDescription} (String {\b description})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BE\'D0\'BF\'D0\'B8\'D1\'81\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b discountPercent}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A0\'D0\'B0\'D0\'B7\'D0\'BC\'D0\'B5\'D1\'80 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B8 \'D0\'B2 \'D0\'BF\'D1\'80\'D0\'BE\'D1\'86\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B0\'D1\'85 (0-100) }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9, \'D0\'BD\'D0\'B0\'D1\'81\'D0\'BB\'D0\'B5\'D0\'B4\'D1\'83\'D0\'B5\'D1\'82\'D1\'81\'D1\'8F \'D0\'BE\'D1\'82 {\b Product}. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'94\'D0\'B0\'D0\'BD\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D1\'80\'D0\'B0\'D1\'81\'D1\'88\'D0\'B8\'D1\'80\'D1\'8F\'D0\'B5\'D1\'82 \'D1\'84\'D1\'83\'D0\'BD\'D0\'BA\'D1\'86\'D0\'B8\'D0\'BE\'D0\'BD\'D0\'B0\'D0\'BB\'D1\'8C\'D0\'BD\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C \'D0\'B1\'D0\'B0\'D0\'B7\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B3\'D0\'BE \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81\'D0\'B0 {\b Product}, \'D0\'B4\'D0\'BE\'D0\'B1\'D0\'B0\'D0\'B2\'D0\'BB\'D1\'8F\'D1\'8F \'D0\'BF\'D0\'BE\'D0\'B4\'D0\'B4\'D0\'B5\'D1\'80\'D0\'B6\'D0\'BA\'D1\'83 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BE\'D0\'BA \'D0\'BD\'D0\'B0 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D1\'8B. \par
+}{
+Definition at line {\b 22} of file {\b DiscontedProduct.java}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v DiscountedProduct\:entities.DiscountedProduct}
+{\xe \v entities.DiscountedProduct\:DiscountedProduct}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+entities.DiscountedProduct.DiscountedProduct (int id, String name, double price, int stockQuantity, double discountPercent){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D1\'83\'D0\'BA\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i id} \cell }{- \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i name} \cell }{- \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i price} \cell }{- \'D0\'B8\'D1\'81\'D1\'85\'D0\'BE\'D0\'B4\'D0\'BD\'D0\'B0\'D1\'8F \'D1\'86\'D0\'B5\'D0\'BD\'D0\'B0 \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i stockQuantity} \cell }{- \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i discountPercent} \cell }{- \'D0\'BF\'D1\'80\'D0\'BE\'D1\'86\'D0\'B5\'D0\'BD\'D1\'82 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B8 \cell }
+{\row }
+}
+}{
+Definition at line {\b 35} of file {\b DiscontedProduct.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00035                                                                                                            \{\par
+00036         super({\cf18 id}, name, price, stockQuantity);\par
+00037         setDiscountPercent(discountPercent);\par
+00038     \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v buy\:entities.DiscountedProduct}
+{\xe \v entities.DiscountedProduct\:buy}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double entities.DiscountedProduct.buy (int quantity){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'92\'D1\'8B\'D0\'BF\'D0\'BE\'D0\'BB\'D0\'BD\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i quantity} \cell }{- \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double - \'D0\'BE\'D0\'B1\'D1\'89\'D0\'B0\'D1\'8F \'D1\'81\'D1\'82\'D0\'BE\'D0\'B8\'D0\'BC\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9 \par
+}}}{
+Reimplemented from {\b entities.Product} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Definition at line {\b 54} of file {\b DiscontedProduct.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00054                                     \{\par
+00055         {\cf19 if} (quantity <= 0) \{\par
+00056             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'9A\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'B4\'D0\'BE\'D0\'BB\'D0\'B6\'D0\'BD\'D0\'BE \'D0\'B1\'D1\'8B\'D1\'82\'D1\'8C \'D0\'BF\'D0\'BE\'D0\'BB\'D0\'BE\'D0\'B6\'D0\'B8\'D1\'82\'D0\'B5\'D0\'BB\'D1\'8C\'D0\'BD\'D1\'8B\'D0\'BC"});\par
+00057         \}\par
+00058 \par
+00059         {\cf19 if} (!isAvailable(quantity)) \{\par
+00060             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'9D\'D0\'B5\'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D0\'B0\'D1\'82\'D0\'BE\'D1\'87\'D0\'BD\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5"});\par
+00061         \}\par
+00062 \par
+00063         setStockQuantity(getStockQuantity() - quantity);\par
+00064         {\cf19 return} getDiscountedPrice() * quantity;\par
+00065     \}\par
+}
+}
+{\xe \v getDiscountedPrice\:entities.DiscountedProduct}
+{\xe \v entities.DiscountedProduct\:getDiscountedPrice}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double entities.DiscountedProduct.getDiscountedPrice (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D1\'86\'D0\'B5\'D0\'BD\'D1\'83 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double - \'D1\'86\'D0\'B5\'D0\'BD\'D0\'B0 \'D1\'81 \'D1\'83\'D1\'87\'D0\'B5\'D1\'82\'D0\'BE\'D0\'BC \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B8 \par
+}}}{
+Definition at line {\b 44} of file {\b DiscontedProduct.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00044                                        \{\par
+00045         {\cf19 return} getPrice() * (1 - discountPercent / 100);\par
+00046     \}\par
+}
+}
+{\xe \v getDiscountPercent\:entities.DiscountedProduct}
+{\xe \v entities.DiscountedProduct\:getDiscountPercent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double entities.DiscountedProduct.getDiscountPercent (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D1\'80\'D0\'B0\'D0\'B7\'D0\'BC\'D0\'B5\'D1\'80 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B8 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double - \'D0\'BF\'D1\'80\'D0\'BE\'D1\'86\'D0\'B5\'D0\'BD\'D1\'82 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B8 \par
+}}}{
+Definition at line {\b 71} of file {\b DiscontedProduct.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00071                                        \{\par
+00072         {\cf19 return} discountPercent;\par
+00073     \}\par
+}
+}
+{\xe \v setDiscountPercent\:entities.DiscountedProduct}
+{\xe \v entities.DiscountedProduct\:setDiscountPercent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void entities.DiscountedProduct.setDiscountPercent (double discountPercent){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D1\'80\'D0\'B0\'D0\'B7\'D0\'BC\'D0\'B5\'D1\'80 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B8 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i discountPercent} \cell }{- \'D0\'BD\'D0\'BE\'D0\'B2\'D1\'8B\'D0\'B9 \'D0\'BF\'D1\'80\'D0\'BE\'D1\'86\'D0\'B5\'D0\'BD\'D1\'82 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B8 \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Exceptions\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i IllegalArgumentException} \cell }{\'D0\'B5\'D1\'81\'D0\'BB\'D0\'B8 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B0 \'D0\'BD\'D0\'B5 \'D0\'B2 \'D0\'B4\'D0\'B8\'D0\'B0\'D0\'BF\'D0\'B0\'D0\'B7\'D0\'BE\'D0\'BD\'D0\'B5 0-100 \cell }
+{\row }
+}
+}{
+Definition at line {\b 80} of file {\b DiscontedProduct.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00080                                                            \{\par
+00081         {\cf19 if} (discountPercent < 0 || discountPercent > 100) \{\par
+00082             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'A1\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B0 \'D0\'B4\'D0\'BE\'D0\'BB\'D0\'B6\'D0\'BD\'D0\'B0 \'D0\'B1\'D1\'8B\'D1\'82\'D1\'8C \'D0\'B2 \'D0\'B4\'D0\'B8\'D0\'B0\'D0\'BF\'D0\'B0\'D0\'B7\'D0\'BE\'D0\'BD\'D0\'B5 0-100%"});\par
+00083         \}\par
+00084         this.discountPercent = discountPercent;\par
+00085     \}\par
+}
+}
+{\xe \v toString\:entities.DiscountedProduct}
+{\xe \v entities.DiscountedProduct\:toString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+String entities.DiscountedProduct.toString (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A1\'D1\'82\'D1\'80\'D0\'BE\'D0\'BA\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B5 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+String - \'D1\'81\'D1\'82\'D1\'80\'D0\'BE\'D0\'BA\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B5 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5 \par
+}}}{
+Reimplemented from {\b entities.Product} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAT \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Definition at line {\b 92} of file {\b DiscontedProduct.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00092                              \{\par
+00093         {\cf19 return} String.format({\cf22 "DiscountedProduct\{id=%d, name='%s', price=%.2f, discount=%.1f%%, stock=%d\}"},\par
+00094                            getId(), getName(), getDiscountedPrice(), discountPercent, getStockQuantity());\par
+00095     \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Data Documentation\par
+\pard\plain 
+{\xe \v discountPercent\:entities.DiscountedProduct}
+{\xe \v entities.DiscountedProduct\:discountPercent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double entities.DiscountedProduct.discountPercent{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A0\'D0\'B0\'D0\'B7\'D0\'BC\'D0\'B5\'D1\'80 \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B8 \'D0\'B2 \'D0\'BF\'D1\'80\'D0\'BE\'D1\'86\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B0\'D1\'85 (0-100) }}\par
+{
+Definition at line {\b 25} of file {\b DiscontedProduct.java}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/main/entities/{\b DiscontedProduct.java}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+main.Main Class Reference\par \pard\plain 
+{\tc\tcl2 \v main.Main}
+{\xe \v main.Main}
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Static Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b main} (String[] args)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'93\'D0\'BB\'D0\'B0\'D0\'B2\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BC\'D0\'B5\'D1\'82\'D0\'BE\'D0\'B4 \'D0\'BF\'D1\'80\'D0\'B8\'D0\'BB\'D0\'BE\'D0\'B6\'D0\'B5\'D0\'BD\'D0\'B8\'D1\'8F }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Static Private Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b demonstrateProduct} ({\b Product} product)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'80\'D0\'B0\'D0\'B1\'D0\'BE\'D1\'82\'D1\'8B \'D1\'81 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'BE\'D0\'BC }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b demonstrateBuyableInterface} ({\b Buyable} item)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'80\'D0\'B0\'D0\'B1\'D0\'BE\'D1\'82\'D1\'8B \'D1\'87\'D0\'B5\'D1\'80\'D0\'B5\'D0\'B7 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 {\b Buyable}. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definition at line {\b 36} of file {\b Main.java}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v demonstrateBuyableInterface\:main.Main}
+{\xe \v main.Main\:demonstrateBuyableInterface}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void main.Main.demonstrateBuyableInterface ({\b Buyable} item){\f2 [inline]}, {\f2 [static]}, {\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'80\'D0\'B0\'D0\'B1\'D0\'BE\'D1\'82\'D1\'8B \'D1\'87\'D0\'B5\'D1\'80\'D0\'B5\'D0\'B7 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 {\b Buyable}. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i item} \cell }{- \'D0\'BE\'D0\'B1\'D1\'8A\'D0\'B5\'D0\'BA\'D1\'82 \'D1\'80\'D0\'B5\'D0\'B0\'D0\'BB\'D0\'B8\'D0\'B7\'D1\'83\'D1\'8E\'D1\'89\'D0\'B8\'D0\'B9 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 {\b Buyable} \cell }
+{\row }
+}
+}{
+Definition at line {\b 82} of file {\b Main.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00082                                                                   \{\par
+00083         System.out.println({\cf22 "=== \'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'87\'D0\'B5\'D1\'80\'D0\'B5\'D0\'B7 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 ==="});\par
+00084         System.out.println({\cf22 "\'D0\'94\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'BD\'D0\'BE 5 \'D0\'B5\'D0\'B4\'D0\'B8\'D0\'BD\'D0\'B8\'D1\'86: "} + item.isAvailable(5));\par
+00085 \par
+00086         {\cf19 try} \{\par
+00087             {\cf18 double} total = item.buy(1);\par
+00088             System.out.printf({\cf22 "\'D0\'9A\'D1\'83\'D0\'BF\'D0\'BB\'D0\'B5\'D0\'BD\'D0\'BE \'D1\'87\'D0\'B5\'D1\'80\'D0\'B5\'D0\'B7 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81. \'D0\'A1\'D1\'82\'D0\'BE\'D0\'B8\'D0\'BC\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C: %.2f\\n"}, total);\par
+00089         \} {\cf19 catch} (IllegalArgumentException e) \{\par
+00090             System.out.println({\cf22 "\'D0\'9E\'D1\'88\'D0\'B8\'D0\'B1\'D0\'BA\'D0\'B0 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8 \'D1\'87\'D0\'B5\'D1\'80\'D0\'B5\'D0\'B7 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81: "} + e.getMessage());\par
+00091         \}\par
+00092         System.out.println();\par
+00093     \}\par
+}
+}
+{\xe \v demonstrateProduct\:main.Main}
+{\xe \v main.Main\:demonstrateProduct}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void main.Main.demonstrateProduct ({\b Product} product){\f2 [inline]}, {\f2 [static]}, {\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'80\'D0\'B0\'D0\'B1\'D0\'BE\'D1\'82\'D1\'8B \'D1\'81 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'BE\'D0\'BC }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i product} \cell }{- \'D0\'B4\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B8\'D1\'80\'D1\'83\'D0\'B5\'D0\'BC\'D1\'8B\'D0\'B9 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \cell }
+{\row }
+}
+}{
+Definition at line {\b 63} of file {\b Main.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00063                                                             \{\par
+00064         System.out.println({\cf22 "=== \'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 ==="});\par
+00065         System.out.println({\cf22 "\'D0\'A2\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80: "} + product);\par
+00066         System.out.println({\cf22 "\'D0\'94\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'BD\'D0\'BE 3 \'D0\'B5\'D0\'B4\'D0\'B8\'D0\'BD\'D0\'B8\'D1\'86\'D1\'8B: "} + product.isAvailable(3));\par
+00067 \par
+00068         {\cf19 try} \{\par
+00069             {\cf18 double} total = product.buy(2);\par
+00070             System.out.printf({\cf22 "\'D0\'9A\'D1\'83\'D0\'BF\'D0\'BB\'D0\'B5\'D0\'BD\'D0\'BE 2 \'D0\'B5\'D0\'B4\'D0\'B8\'D0\'BD\'D0\'B8\'D1\'86\'D1\'8B. \'D0\'9E\'D0\'B1\'D1\'89\'D0\'B0\'D1\'8F \'D1\'81\'D1\'82\'D0\'BE\'D0\'B8\'D0\'BC\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C: %.2f\\n"}, total);\par
+00071             System.out.println({\cf22 "\'D0\'9E\'D1\'81\'D1\'82\'D0\'B0\'D1\'82\'D0\'BE\'D0\'BA \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5: "} + product.getStockQuantity());\par
+00072         \} {\cf19 catch} (IllegalArgumentException e) \{\par
+00073             System.out.println({\cf22 "\'D0\'9E\'D1\'88\'D0\'B8\'D0\'B1\'D0\'BA\'D0\'B0 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8: "} + e.getMessage());\par
+00074         \}\par
+00075         System.out.println();\par
+00076     \}\par
+}
+}
+{\xe \v main\:main.Main}
+{\xe \v main.Main\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void main.Main.main (String[] args){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'93\'D0\'BB\'D0\'B0\'D0\'B2\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BC\'D0\'B5\'D1\'82\'D0\'BE\'D0\'B4 \'D0\'BF\'D1\'80\'D0\'B8\'D0\'BB\'D0\'BE\'D0\'B6\'D0\'B5\'D0\'BD\'D0\'B8\'D1\'8F }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i args} \cell }{- \'D0\'B0\'D1\'80\'D0\'B3\'D1\'83\'D0\'BC\'D0\'B5\'D0\'BD\'D1\'82\'D1\'8B \'D0\'BA\'D0\'BE\'D0\'BC\'D0\'B0\'D0\'BD\'D0\'B4\'D0\'BD\'D0\'BE\'D0\'B9 \'D1\'81\'D1\'82\'D1\'80\'D0\'BE\'D0\'BA\'D0\'B8\cell }
+{\row }
+}
+\'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B8\'D1\'80\'D1\'83\'D0\'B5\'D1\'82 \'D1\'80\'D0\'B0\'D0\'B1\'D0\'BE\'D1\'82\'D1\'83 \'D1\'81 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81\'D0\'B0\'D0\'BC\'D0\'B8 {\b Product} \'D0\'B8 {\b DiscountedProduct}, \'D0\'B2\'D0\'BA\'D0\'BB\'D1\'8E\'D1\'87\'D0\'B0\'D1\'8F \'D0\'BE\'D0\'BF\'D0\'B5\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D0\'B8 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8 \'D1\'87\'D0\'B5\'D1\'80\'D0\'B5\'D0\'B7 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 {\b Buyable}. \par
+}{
+Definition at line {\b 45} of file {\b Main.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00045                                            \{\par
+00046         {\cf20 // \'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D0\'B1\'D0\'B0\'D0\'B7\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B3\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0}\par
+00047         Product product = {\cf17 new} Product(1, {\cf22 "Laptop"}, 1000.0, 5, {\cf22 "Gaming laptop"});\par
+00048         demonstrateProduct(product);\par
+00049 \par
+00050         {\cf20 // \'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9}\par
+00051         DiscountedProduct discountedProduct = {\cf17 new} DiscountedProduct(2, {\cf22 "Smartphone"}, 500.0, 10, 15.0);\par
+00052         demonstrateProduct(discountedProduct);\par
+00053 \par
+00054         {\cf20 // \'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'87\'D0\'B5\'D1\'80\'D0\'B5\'D0\'B7 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81}\par
+00055         demonstrateBuyableInterface(product);\par
+00056         demonstrateBuyableInterface(discountedProduct);\par
+00057     \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/main/{\b Main.java}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+entities.Product Class Reference\par \pard\plain 
+{\tc\tcl2 \v entities.Product}
+{\xe \v entities.Product}
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9E\'D1\'81\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'BD\'D0\'BE\'D0\'B9 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D1\'8F\'D1\'8E\'D1\'89\'D0\'B8\'D0\'B9 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \'D0\'B2 \'D1\'81\'D0\'B8\'D1\'81\'D1\'82\'D0\'B5\'D0\'BC\'D0\'B5 Vinlab. }}\par
+Inheritance diagram for entities.Product:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classentities_1_1_product.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Product} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D1\'83\'D0\'BA\'D1\'82\'D0\'BE\'D1\'80 \'D0\'BF\'D0\'BE \'D1\'83\'D0\'BC\'D0\'BE\'D0\'BB\'D1\'87\'D0\'B0\'D0\'BD\'D0\'B8\'D1\'8E }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Product} (int {\b id}, String {\b name}, double {\b price}, int {\b stockQuantity})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'B0\'D1\'80\'D0\'B0\'D0\'BC\'D0\'B5\'D1\'82\'D1\'80\'D0\'B8\'D0\'B7\'D0\'B8\'D1\'80\'D0\'BE\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BA\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D1\'83\'D0\'BA\'D1\'82\'D0\'BE\'D1\'80 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Product} (int {\b id}, String {\b name}, double {\b price}, int {\b stockQuantity}, String {\b description})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BA\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D1\'83\'D0\'BA\'D1\'82\'D0\'BE\'D1\'80 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b buy} (int quantity)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'92\'D1\'8B\'D0\'BF\'D0\'BE\'D0\'BB\'D0\'BD\'D1\'8F\'D0\'B5\'D1\'82 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+boolean {\b isAvailable} (int quantity)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D1\'80\'D0\'BE\'D0\'B2\'D0\'B5\'D1\'80\'D1\'8F\'D0\'B5\'D1\'82 \'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'BD\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getId} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setId} (int {\b id})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+String {\b getName} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setName} (String {\b name})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getPrice} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D1\'86\'D0\'B5\'D0\'BD\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setPrice} (double {\b price})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D1\'86\'D0\'B5\'D0\'BD\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getStockQuantity} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setStockQuantity} (int {\b stockQuantity})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+String {\b getDescription} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BE\'D0\'BF\'D0\'B8\'D1\'81\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setDescription} (String {\b description})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BE\'D0\'BF\'D0\'B8\'D1\'81\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+String {\b toString} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D1\'81\'D1\'82\'D1\'80\'D0\'BE\'D0\'BA\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B5 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b id}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D0\'BD\'D0\'B8\'D0\'BA\'D0\'B0\'D0\'BB\'D1\'8C\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+String {\b name}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9D\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b price}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A6\'D0\'B5\'D0\'BD\'D0\'B0 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'B7\'D0\'B0 \'D0\'B5\'D0\'B4\'D0\'B8\'D0\'BD\'D0\'B8\'D1\'86\'D1\'83 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b stockQuantity}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+String {\b description}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9E\'D0\'BF\'D0\'B8\'D1\'81\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9E\'D1\'81\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'BD\'D0\'BE\'D0\'B9 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D1\'8F\'D1\'8E\'D1\'89\'D0\'B8\'D0\'B9 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \'D0\'B2 \'D1\'81\'D0\'B8\'D1\'81\'D1\'82\'D0\'B5\'D0\'BC\'D0\'B5 Vinlab. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 {\b Product} \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D1\'8F\'D0\'B5\'D1\'82 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \'D1\'81 \'D0\'B1\'D0\'B0\'D0\'B7\'D0\'BE\'D0\'B2\'D1\'8B\'D0\'BC\'D0\'B8 \'D1\'85\'D0\'B0\'D1\'80\'D0\'B0\'D0\'BA\'D1\'82\'D0\'B5\'D1\'80\'D0\'B8\'D1\'81\'D1\'82\'D0\'B8\'D0\'BA\'D0\'B0\'D0\'BC\'D0\'B8: \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80, \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5, \'D1\'86\'D0\'B5\'D0\'BD\'D0\'B0, \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5. \'D0\'A0\'D0\'B5\'D0\'B0\'D0\'BB\'D0\'B8\'D0\'B7\'D1\'83\'D0\'B5\'D1\'82 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 {\b Buyable} \'D0\'B4\'D0\'BB\'D1\'8F \'D0\'BF\'D0\'BE\'D0\'B4\'D0\'B4\'D0\'B5\'D1\'80\'D0\'B6\'D0\'BA\'D0\'B8 \'D0\'BE\'D0\'BF\'D0\'B5\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D0\'B9 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+See also\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+{\b Buyable} \par
+}}}{
+Definition at line {\b 23} of file {\b Product.java}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v Product\:entities.Product}
+{\xe \v entities.Product\:Product}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+entities.Product.Product (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D1\'83\'D0\'BA\'D1\'82\'D0\'BE\'D1\'80 \'D0\'BF\'D0\'BE \'D1\'83\'D0\'BC\'D0\'BE\'D0\'BB\'D1\'87\'D0\'B0\'D0\'BD\'D0\'B8\'D1\'8E }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A1\'D0\'BE\'D0\'B7\'D0\'B4\'D0\'B0\'D0\'B5\'D1\'82 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \'D1\'81 \'D0\'BF\'D1\'83\'D1\'81\'D1\'82\'D1\'8B\'D0\'BC\'D0\'B8 \'D0\'B7\'D0\'BD\'D0\'B0\'D1\'87\'D0\'B5\'D0\'BD\'D0\'B8\'D1\'8F\'D0\'BC\'D0\'B8 \'D0\'B8 \'D0\'BD\'D1\'83\'D0\'BB\'D0\'B5\'D0\'B2\'D0\'BE\'D0\'B9 \'D1\'86\'D0\'B5\'D0\'BD\'D0\'BE\'D0\'B9. \par
+}{
+Definition at line {\b 45} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00045                      \{\par
+00046         this.id = 0;\par
+00047         this.name = {\cf22 ""};\par
+00048         this.price = 0.0;\par
+00049         this.stockQuantity = 0;\par
+00050         this.description = {\cf22 ""};\par
+00051     \}\par
+}
+}
+{\xe \v Product\:entities.Product}
+{\xe \v entities.Product\:Product}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+entities.Product.Product (int id, String name, double price, int stockQuantity){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'B0\'D1\'80\'D0\'B0\'D0\'BC\'D0\'B5\'D1\'82\'D1\'80\'D0\'B8\'D0\'B7\'D0\'B8\'D1\'80\'D0\'BE\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BA\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D1\'83\'D0\'BA\'D1\'82\'D0\'BE\'D1\'80 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i id} \cell }{- \'D1\'83\'D0\'BD\'D0\'B8\'D0\'BA\'D0\'B0\'D0\'BB\'D1\'8C\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i name} \cell }{- \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i price} \cell }{- \'D1\'86\'D0\'B5\'D0\'BD\'D0\'B0 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i stockQuantity} \cell }{- \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5\cell }
+{\row }
+}
+\'D0\'A1\'D0\'BE\'D0\'B7\'D0\'B4\'D0\'B0\'D0\'B5\'D1\'82 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \'D1\'81 \'D1\'83\'D0\'BA\'D0\'B0\'D0\'B7\'D0\'B0\'D0\'BD\'D0\'BD\'D1\'8B\'D0\'BC\'D0\'B8 \'D0\'BF\'D0\'B0\'D1\'80\'D0\'B0\'D0\'BC\'D0\'B5\'D1\'82\'D1\'80\'D0\'B0\'D0\'BC\'D0\'B8. \par
+}{
+Definition at line {\b 62} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00062                                                                          \{\par
+00063         this.id = id;\par
+00064         this.name = name;\par
+00065         this.price = price;\par
+00066         this.stockQuantity = stockQuantity;\par
+00067         this.description = {\cf22 ""};\par
+00068     \}\par
+}
+}
+{\xe \v Product\:entities.Product}
+{\xe \v entities.Product\:Product}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+entities.Product.Product (int id, String name, double price, int stockQuantity, String description){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BA\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D1\'83\'D0\'BA\'D1\'82\'D0\'BE\'D1\'80 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i id} \cell }{- \'D1\'83\'D0\'BD\'D0\'B8\'D0\'BA\'D0\'B0\'D0\'BB\'D1\'8C\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i name} \cell }{- \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i price} \cell }{- \'D1\'86\'D0\'B5\'D0\'BD\'D0\'B0 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i stockQuantity} \cell }{- \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i description} \cell }{- \'D0\'BE\'D0\'BF\'D0\'B8\'D1\'81\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \cell }
+{\row }
+}
+}{
+Definition at line {\b 78} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00078                                                                                              \{\par
+00079         this.id = id;\par
+00080         this.name = name;\par
+00081         this.price = price;\par
+00082         this.stockQuantity = stockQuantity;\par
+00083         this.description = description;\par
+00084     \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v buy\:entities.Product}
+{\xe \v entities.Product\:buy}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double entities.Product.buy (int quantity){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'92\'D1\'8B\'D0\'BF\'D0\'BE\'D0\'BB\'D0\'BD\'D1\'8F\'D0\'B5\'D1\'82 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i quantity} \cell }{- \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'B4\'D0\'BB\'D1\'8F \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8 \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double - \'D0\'BE\'D0\'B1\'D1\'89\'D0\'B0\'D1\'8F \'D1\'81\'D1\'82\'D0\'BE\'D0\'B8\'D0\'BC\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8\par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Exceptions\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i IllegalArgumentException} \cell }{\'D0\'B5\'D1\'81\'D0\'BB\'D0\'B8 quantity <= 0 \'D0\'B8\'D0\'BB\'D0\'B8 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'BD\'D0\'B5\'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D0\'B0\'D1\'82\'D0\'BE\'D1\'87\'D0\'BD\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 \cell }
+{\row }
+}
+}{
+Implements {\b interfaces.Buyable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Reimplemented in {\b entities.DiscountedProduct} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Definition at line {\b 96} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00096                                     \{\par
+00097         {\cf19 if} (quantity <= 0) \{\par
+00098             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'9A\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'B4\'D0\'BE\'D0\'BB\'D0\'B6\'D0\'BD\'D0\'BE \'D0\'B1\'D1\'8B\'D1\'82\'D1\'8C \'D0\'BF\'D0\'BE\'D0\'BB\'D0\'BE\'D0\'B6\'D0\'B8\'D1\'82\'D0\'B5\'D0\'BB\'D1\'8C\'D0\'BD\'D1\'8B\'D0\'BC"});\par
+00099         \}\par
+00100 \par
+00101         {\cf19 if} (!isAvailable(quantity)) \{\par
+00102             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'9D\'D0\'B5\'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D0\'B0\'D1\'82\'D0\'BE\'D1\'87\'D0\'BD\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5"});\par
+00103         \}\par
+00104 \par
+00105         this.stockQuantity -= quantity;\par
+00106         {\cf19 return} this.price * quantity;\par
+00107     \}\par
+}
+}
+{\xe \v getDescription\:entities.Product}
+{\xe \v entities.Product\:getDescription}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+String entities.Product.getDescription (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BE\'D0\'BF\'D0\'B8\'D1\'81\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+String - \'D0\'BE\'D0\'BF\'D0\'B8\'D1\'81\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \par
+}}}{
+Definition at line {\b 197} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00197                                    \{\par
+00198         {\cf19 return} description;\par
+00199     \}\par
+}
+}
+{\xe \v getId\:entities.Product}
+{\xe \v entities.Product\:getId}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int entities.Product.getId (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+int - \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \par
+}}}{
+Definition at line {\b 125} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00125                        \{\par
+00126         {\cf19 return} id;\par
+00127     \}\par
+}
+}
+{\xe \v getName\:entities.Product}
+{\xe \v entities.Product\:getName}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+String entities.Product.getName (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+String - \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \par
+}}}{
+Definition at line {\b 141} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00141                             \{\par
+00142         {\cf19 return} name;\par
+00143     \}\par
+}
+}
+{\xe \v getPrice\:entities.Product}
+{\xe \v entities.Product\:getPrice}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double entities.Product.getPrice (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D1\'86\'D0\'B5\'D0\'BD\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+double - \'D1\'86\'D0\'B5\'D0\'BD\'D0\'B0 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \par
+}}}{
+Definition at line {\b 157} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00157                              \{\par
+00158         {\cf19 return} price;\par
+00159     \}\par
+}
+}
+{\xe \v getStockQuantity\:entities.Product}
+{\xe \v entities.Product\:getStockQuantity}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int entities.Product.getStockQuantity (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+int - \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 \par
+}}}{
+Definition at line {\b 177} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00177                                   \{\par
+00178         {\cf19 return} stockQuantity;\par
+00179     \}\par
+}
+}
+{\xe \v isAvailable\:entities.Product}
+{\xe \v entities.Product\:isAvailable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+boolean entities.Product.isAvailable (int quantity){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D1\'80\'D0\'BE\'D0\'B2\'D0\'B5\'D1\'80\'D1\'8F\'D0\'B5\'D1\'82 \'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'BD\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i quantity} \cell }{- \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'B4\'D0\'BB\'D1\'8F \'D0\'BF\'D1\'80\'D0\'BE\'D0\'B2\'D0\'B5\'D1\'80\'D0\'BA\'D0\'B8 \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+boolean - true \'D0\'B5\'D1\'81\'D0\'BB\'D0\'B8 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'B5\'D0\'BD \par
+}}}{
+Implements {\b interfaces.Buyable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABJ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Definition at line {\b 115} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00115                                              \{\par
+00116         {\cf19 return} this.stockQuantity >= quantity && quantity > 0;\par
+00117     \}\par
+}
+}
+{\xe \v setDescription\:entities.Product}
+{\xe \v entities.Product\:setDescription}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void entities.Product.setDescription (String description){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BE\'D0\'BF\'D0\'B8\'D1\'81\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i description} \cell }{- \'D0\'BD\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B5 \'D0\'BE\'D0\'BF\'D0\'B8\'D1\'81\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \cell }
+{\row }
+}
+}{
+Definition at line {\b 205} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00205                                                    \{\par
+00206         this.description = description;\par
+00207     \}\par
+}
+}
+{\xe \v setId\:entities.Product}
+{\xe \v entities.Product\:setId}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void entities.Product.setId (int id){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i id} \cell }{- \'D0\'BD\'D0\'BE\'D0\'B2\'D1\'8B\'D0\'B9 \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \cell }
+{\row }
+}
+}{
+Definition at line {\b 133} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00133                               \{\par
+00134         this.id = id;\par
+00135     \}\par
+}
+}
+{\xe \v setName\:entities.Product}
+{\xe \v entities.Product\:setName}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void entities.Product.setName (String name){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i name} \cell }{- \'D0\'BD\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B5 \'D0\'BD\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \cell }
+{\row }
+}
+}{
+Definition at line {\b 149} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00149                                      \{\par
+00150         this.name = name;\par
+00151     \}\par
+}
+}
+{\xe \v setPrice\:entities.Product}
+{\xe \v entities.Product\:setPrice}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void entities.Product.setPrice (double price){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D1\'86\'D0\'B5\'D0\'BD\'D1\'83 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i price} \cell }{- \'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'8F \'D1\'86\'D0\'B5\'D0\'BD\'D0\'B0 \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Exceptions\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i IllegalArgumentException} \cell }{\'D0\'B5\'D1\'81\'D0\'BB\'D0\'B8 price < 0 \cell }
+{\row }
+}
+}{
+Definition at line {\b 166} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00166                                        \{\par
+00167         {\cf19 if} (price < 0) \{\par
+00168             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'A6\'D0\'B5\'D0\'BD\'D0\'B0 \'D0\'BD\'D0\'B5 \'D0\'BC\'D0\'BE\'D0\'B6\'D0\'B5\'D1\'82 \'D0\'B1\'D1\'8B\'D1\'82\'D1\'8C \'D0\'BE\'D1\'82\'D1\'80\'D0\'B8\'D1\'86\'D0\'B0\'D1\'82\'D0\'B5\'D0\'BB\'D1\'8C\'D0\'BD\'D0\'BE\'D0\'B9"});\par
+00169         \}\par
+00170         this.price = price;\par
+00171     \}\par
+}
+}
+{\xe \v setStockQuantity\:entities.Product}
+{\xe \v entities.Product\:setStockQuantity}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void entities.Product.setStockQuantity (int stockQuantity){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D1\'81\'D1\'82\'D0\'B0\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'B8\'D1\'82\'D1\'8C \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Parameters\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i stockQuantity} \cell }{- \'D0\'BD\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B5 \'D0\'BA\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Exceptions\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i IllegalArgumentException} \cell }{\'D0\'B5\'D1\'81\'D0\'BB\'D0\'B8 stockQuantity < 0 \cell }
+{\row }
+}
+}{
+Definition at line {\b 186} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00186                                                     \{\par
+00187         {\cf19 if} (stockQuantity < 0) \{\par
+00188             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'9A\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B5 \'D0\'BC\'D0\'BE\'D0\'B6\'D0\'B5\'D1\'82 \'D0\'B1\'D1\'8B\'D1\'82\'D1\'8C \'D0\'BE\'D1\'82\'D1\'80\'D0\'B8\'D1\'86\'D0\'B0\'D1\'82\'D0\'B5\'D0\'BB\'D1\'8C\'D0\'BD\'D1\'8B\'D0\'BC"});\par
+00189         \}\par
+00190         this.stockQuantity = stockQuantity;\par
+00191     \}\par
+}
+}
+{\xe \v toString\:entities.Product}
+{\xe \v entities.Product\:toString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+String entities.Product.toString (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9F\'D0\'BE\'D0\'BB\'D1\'83\'D1\'87\'D0\'B8\'D1\'82\'D1\'8C \'D1\'81\'D1\'82\'D1\'80\'D0\'BE\'D0\'BA\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B5 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Returns\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+String - \'D1\'81\'D1\'82\'D1\'80\'D0\'BE\'D0\'BA\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B5 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5 \par
+}}}{
+Reimplemented in {\b entities.DiscountedProduct} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAS \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Definition at line {\b 214} of file {\b Product.java}.}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00214                              \{\par
+00215         {\cf19 return} String.format({\cf22 "Product\{id=%d, name='%s', price=%.2f, stock=%d\}"},\par
+00216                            {\cf18 id}, name, price, stockQuantity);\par
+00217     \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Data Documentation\par
+\pard\plain 
+{\xe \v description\:entities.Product}
+{\xe \v entities.Product\:description}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+String entities.Product.description{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9E\'D0\'BF\'D0\'B8\'D1\'81\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{
+Definition at line {\b 38} of file {\b Product.java}.}\par
+}
+{\xe \v id\:entities.Product}
+{\xe \v entities.Product\:id}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int entities.Product.id{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A3\'D0\'BD\'D0\'B8\'D0\'BA\'D0\'B0\'D0\'BB\'D1\'8C\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'B8\'D0\'B4\'D0\'B5\'D0\'BD\'D1\'82\'D0\'B8\'D1\'84\'D0\'B8\'D0\'BA\'D0\'B0\'D1\'82\'D0\'BE\'D1\'80 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{
+Definition at line {\b 26} of file {\b Product.java}.}\par
+}
+{\xe \v name\:entities.Product}
+{\xe \v entities.Product\:name}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+String entities.Product.name{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9D\'D0\'B0\'D0\'B7\'D0\'B2\'D0\'B0\'D0\'BD\'D0\'B8\'D0\'B5 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par
+{
+Definition at line {\b 29} of file {\b Product.java}.}\par
+}
+{\xe \v price\:entities.Product}
+{\xe \v entities.Product\:price}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double entities.Product.price{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'A6\'D0\'B5\'D0\'BD\'D0\'B0 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'B7\'D0\'B0 \'D0\'B5\'D0\'B4\'D0\'B8\'D0\'BD\'D0\'B8\'D1\'86\'D1\'83 }}\par
+{
+Definition at line {\b 32} of file {\b Product.java}.}\par
+}
+{\xe \v stockQuantity\:entities.Product}
+{\xe \v entities.Product\:stockQuantity}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int entities.Product.stockQuantity{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5 }}\par
+{
+Definition at line {\b 35} of file {\b Product.java}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/main/entities/{\b Product.java}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Documentation{\tc \v File Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+src/main/entities/DiscontedProduct.java File Reference\par \pard\plain 
+{\tc\tcl2 \v src/main/entities/DiscontedProduct.java}
+{\xe \v src/main/entities/DiscontedProduct.java}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 import interfaces.Buyable;}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b entities.DiscountedProduct}{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9, \'D0\'BD\'D0\'B0\'D1\'81\'D0\'BB\'D0\'B5\'D0\'B4\'D1\'83\'D0\'B5\'D1\'82\'D1\'81\'D1\'8F \'D0\'BE\'D1\'82 {\b Product}. }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Packages\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b entities}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+DiscontedProduct.java\par \pard\plain 
+{\tc\tcl2 \v src/main/entities/DiscontedProduct.java}
+{\xe \v src/main/entities/DiscontedProduct.java}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf17 package }entities;\par
+00002 \par
+00003 {\cf17 import} interfaces.Buyable;\par
+00004 \par
+00012 \par
+00022 {\cf17 public} {\cf17 class }DiscountedProduct {\cf17 extends} Product \{\par
+00023 \par
+00025     {\cf17 private} {\cf18 double} discountPercent;\par
+00026 \par
+00035     {\cf17 public} DiscountedProduct({\cf18 int} {\cf18 id}, String name, {\cf18 double} price, {\cf18 int} stockQuantity, {\cf18 double} discountPercent) \{\par
+00036         super({\cf18 id}, name, price, stockQuantity);\par
+00037         setDiscountPercent(discountPercent);\par
+00038     \}\par
+00039 \par
+00044     {\cf17 public} {\cf18 double} getDiscountedPrice() \{\par
+00045         {\cf19 return} getPrice() * (1 - discountPercent / 100);\par
+00046     \}\par
+00047 \par
+00053     @Override\par
+00054     {\cf17 public} {\cf18 double} buy({\cf18 int} quantity) \{\par
+00055         {\cf19 if} (quantity <= 0) \{\par
+00056             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'9A\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'B4\'D0\'BE\'D0\'BB\'D0\'B6\'D0\'BD\'D0\'BE \'D0\'B1\'D1\'8B\'D1\'82\'D1\'8C \'D0\'BF\'D0\'BE\'D0\'BB\'D0\'BE\'D0\'B6\'D0\'B8\'D1\'82\'D0\'B5\'D0\'BB\'D1\'8C\'D0\'BD\'D1\'8B\'D0\'BC"});\par
+00057         \}\par
+00058 \par
+00059         {\cf19 if} (!isAvailable(quantity)) \{\par
+00060             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'9D\'D0\'B5\'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D0\'B0\'D1\'82\'D0\'BE\'D1\'87\'D0\'BD\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5"});\par
+00061         \}\par
+00062 \par
+00063         setStockQuantity(getStockQuantity() - quantity);\par
+00064         {\cf19 return} getDiscountedPrice() * quantity;\par
+00065     \}\par
+00066 \par
+00071     {\cf17 public} {\cf18 double} getDiscountPercent() \{\par
+00072         {\cf19 return} discountPercent;\par
+00073     \}\par
+00074 \par
+00080     {\cf17 public} {\cf18 void} setDiscountPercent({\cf18 double} discountPercent) \{\par
+00081         {\cf19 if} (discountPercent < 0 || discountPercent > 100) \{\par
+00082             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'A1\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'B0 \'D0\'B4\'D0\'BE\'D0\'BB\'D0\'B6\'D0\'BD\'D0\'B0 \'D0\'B1\'D1\'8B\'D1\'82\'D1\'8C \'D0\'B2 \'D0\'B4\'D0\'B8\'D0\'B0\'D0\'BF\'D0\'B0\'D0\'B7\'D0\'BE\'D0\'BD\'D0\'B5 0-100%"});\par
+00083         \}\par
+00084         this.discountPercent = discountPercent;\par
+00085     \}\par
+00086 \par
+00091     @Override\par
+00092     {\cf17 public} String toString() \{\par
+00093         {\cf19 return} String.format({\cf22 "DiscountedProduct\{id=%d, name='%s', price=%.2f, discount=%.1f%%, stock=%d\}"},\par
+00094                            getId(), getName(), getDiscountedPrice(), discountPercent, getStockQuantity());\par
+00095     \}\par
+00096 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+src/main/entities/Product.java File Reference\par \pard\plain 
+{\tc\tcl2 \v src/main/entities/Product.java}
+{\xe \v src/main/entities/Product.java}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'B4\'D0\'BB\'D1\'8F \'D1\'81\'D0\'B8\'D1\'81\'D1\'82\'D0\'B5\'D0\'BC\'D1\'8B Vinlab. }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 import interfaces.Buyable;}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b entities.Product}{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9E\'D1\'81\'D0\'BD\'D0\'BE\'D0\'B2\'D0\'BD\'D0\'BE\'D0\'B9 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D1\'81\'D1\'82\'D0\'B0\'D0\'B2\'D0\'BB\'D1\'8F\'D1\'8E\'D1\'89\'D0\'B8\'D0\'B9 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80 \'D0\'B2 \'D1\'81\'D0\'B8\'D1\'81\'D1\'82\'D0\'B5\'D0\'BC\'D0\'B5 Vinlab. }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Packages\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b entities}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'9A\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'B4\'D0\'BB\'D1\'8F \'D1\'81\'D0\'B8\'D1\'81\'D1\'82\'D0\'B5\'D0\'BC\'D1\'8B Vinlab. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Author\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+VinLab Team \par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Version\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+1.0 \par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Date\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+2024 \par
+}}}{
+Definition in file {\b Product.java}.}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Product.java\par \pard\plain 
+{\tc\tcl2 \v src/main/entities/Product.java}
+{\xe \v src/main/entities/Product.java}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf17 package }entities;\par
+00002 \par
+00003 {\cf17 import} interfaces.Buyable;\par
+00004 \par
+00012 \par
+00023 {\cf17 public} {\cf17 class }Product {\cf17 implements} Buyable \{\par
+00024 \par
+00026     {\cf17 private} {\cf18 int} id;\par
+00027 \par
+00029     {\cf17 private} String name;\par
+00030 \par
+00032     {\cf17 private} {\cf18 double} price;\par
+00033 \par
+00035     {\cf17 private} {\cf18 int} stockQuantity;\par
+00036 \par
+00038     {\cf17 private} String description;\par
+00039 \par
+00045     {\cf17 public} Product() \{\par
+00046         this.id = 0;\par
+00047         this.name = {\cf22 ""};\par
+00048         this.price = 0.0;\par
+00049         this.stockQuantity = 0;\par
+00050         this.description = {\cf22 ""};\par
+00051     \}\par
+00052 \par
+00062     {\cf17 public} Product({\cf18 int} {\cf18 id}, String name, {\cf18 double} price, {\cf18 int} stockQuantity) \{\par
+00063         this.id = id;\par
+00064         this.name = name;\par
+00065         this.price = price;\par
+00066         this.stockQuantity = stockQuantity;\par
+00067         this.description = {\cf22 ""};\par
+00068     \}\par
+00069 \par
+00078     {\cf17 public} Product({\cf18 int} {\cf18 id}, String name, {\cf18 double} price, {\cf18 int} stockQuantity, String description) \{\par
+00079         this.id = id;\par
+00080         this.name = name;\par
+00081         this.price = price;\par
+00082         this.stockQuantity = stockQuantity;\par
+00083         this.description = description;\par
+00084     \}\par
+00085 \par
+00086     {\cf20 // \'D0\'A0\'D0\'B5\'D0\'B0\'D0\'BB\'D0\'B8\'D0\'B7\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D0\'BC\'D0\'B5\'D1\'82\'D0\'BE\'D0\'B4\'D0\'BE\'D0\'B2 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81\'D0\'B0 Buyable}\par
+00087 \par
+00095     @Override\par
+00096     {\cf17 public} {\cf18 double} buy({\cf18 int} quantity) \{\par
+00097         {\cf19 if} (quantity <= 0) \{\par
+00098             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'9A\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'B4\'D0\'BE\'D0\'BB\'D0\'B6\'D0\'BD\'D0\'BE \'D0\'B1\'D1\'8B\'D1\'82\'D1\'8C \'D0\'BF\'D0\'BE\'D0\'BB\'D0\'BE\'D0\'B6\'D0\'B8\'D1\'82\'D0\'B5\'D0\'BB\'D1\'8C\'D0\'BD\'D1\'8B\'D0\'BC"});\par
+00099         \}\par
+00100 \par
+00101         {\cf19 if} (!isAvailable(quantity)) \{\par
+00102             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'9D\'D0\'B5\'D0\'B4\'D0\'BE\'D1\'81\'D1\'82\'D0\'B0\'D1\'82\'D0\'BE\'D1\'87\'D0\'BD\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5"});\par
+00103         \}\par
+00104 \par
+00105         this.stockQuantity -= quantity;\par
+00106         {\cf19 return} this.price * quantity;\par
+00107     \}\par
+00108 \par
+00114     @Override\par
+00115     {\cf17 public} {\cf18 boolean} isAvailable({\cf18 int} quantity) \{\par
+00116         {\cf19 return} this.stockQuantity >= quantity && quantity > 0;\par
+00117     \}\par
+00118 \par
+00119     {\cf20 // \'D0\'93\'D0\'B5\'D1\'82\'D1\'82\'D0\'B5\'D1\'80\'D1\'8B \'D0\'B8 \'D1\'81\'D0\'B5\'D1\'82\'D1\'82\'D0\'B5\'D1\'80\'D1\'8B}\par
+00120 \par
+00125     {\cf17 public} {\cf18 int} getId() \{\par
+00126         {\cf19 return} id;\par
+00127     \}\par
+00128 \par
+00133     {\cf17 public} {\cf18 void} setId({\cf18 int} {\cf18 id}) \{\par
+00134         this.id = id;\par
+00135     \}\par
+00136 \par
+00141     {\cf17 public} String getName() \{\par
+00142         {\cf19 return} name;\par
+00143     \}\par
+00144 \par
+00149     {\cf17 public} {\cf18 void} setName(String name) \{\par
+00150         this.name = name;\par
+00151     \}\par
+00152 \par
+00157     {\cf17 public} {\cf18 double} getPrice() \{\par
+00158         {\cf19 return} price;\par
+00159     \}\par
+00160 \par
+00166     {\cf17 public} {\cf18 void} setPrice({\cf18 double} price) \{\par
+00167         {\cf19 if} (price < 0) \{\par
+00168             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'A6\'D0\'B5\'D0\'BD\'D0\'B0 \'D0\'BD\'D0\'B5 \'D0\'BC\'D0\'BE\'D0\'B6\'D0\'B5\'D1\'82 \'D0\'B1\'D1\'8B\'D1\'82\'D1\'8C \'D0\'BE\'D1\'82\'D1\'80\'D0\'B8\'D1\'86\'D0\'B0\'D1\'82\'D0\'B5\'D0\'BB\'D1\'8C\'D0\'BD\'D0\'BE\'D0\'B9"});\par
+00169         \}\par
+00170         this.price = price;\par
+00171     \}\par
+00172 \par
+00177     {\cf17 public} {\cf18 int} getStockQuantity() \{\par
+00178         {\cf19 return} stockQuantity;\par
+00179     \}\par
+00180 \par
+00186     {\cf17 public} {\cf18 void} setStockQuantity({\cf18 int} stockQuantity) \{\par
+00187         {\cf19 if} (stockQuantity < 0) \{\par
+00188             {\cf19 throw} {\cf17 new} IllegalArgumentException({\cf22 "\'D0\'9A\'D0\'BE\'D0\'BB\'D0\'B8\'D1\'87\'D0\'B5\'D1\'81\'D1\'82\'D0\'B2\'D0\'BE \'D0\'BD\'D0\'B5 \'D0\'BC\'D0\'BE\'D0\'B6\'D0\'B5\'D1\'82 \'D0\'B1\'D1\'8B\'D1\'82\'D1\'8C \'D0\'BE\'D1\'82\'D1\'80\'D0\'B8\'D1\'86\'D0\'B0\'D1\'82\'D0\'B5\'D0\'BB\'D1\'8C\'D0\'BD\'D1\'8B\'D0\'BC"});\par
+00189         \}\par
+00190         this.stockQuantity = stockQuantity;\par
+00191     \}\par
+00192 \par
+00197     {\cf17 public} String getDescription() \{\par
+00198         {\cf19 return} description;\par
+00199     \}\par
+00200 \par
+00205     {\cf17 public} {\cf18 void} setDescription(String description) \{\par
+00206         this.description = description;\par
+00207     \}\par
+00208 \par
+00213     @Override\par
+00214     {\cf17 public} String toString() \{\par
+00215         {\cf19 return} String.format({\cf22 "Product\{id=%d, name='%s', price=%.2f, stock=%d\}"},\par
+00216                            {\cf18 id}, name, price, stockQuantity);\par
+00217     \}\par
+00218 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+src/main/interface/Buyable.java File Reference\par \pard\plain 
+{\tc\tcl2 \v src/main/interface/Buyable.java}
+{\xe \v src/main/interface/Buyable.java}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'98\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 \'D0\'B4\'D0\'BB\'D1\'8F \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'BE\'D0\'B2, \'D0\'BA\'D0\'BE\'D1\'82\'D0\'BE\'D1\'80\'D1\'8B\'D0\'B5 \'D0\'BC\'D0\'BE\'D0\'B6\'D0\'BD\'D0\'BE \'D0\'BA\'D1\'83\'D0\'BF\'D0\'B8\'D1\'82\'D1\'8C }}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+interface {\b interfaces.Buyable}{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'98\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 \'D0\'BE\'D0\'BF\'D1\'80\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BB\'D1\'8F\'D1\'8E\'D1\'89\'D0\'B8\'D0\'B9 \'D0\'BF\'D0\'BE\'D0\'B2\'D0\'B5\'D0\'B4\'D0\'B5\'D0\'BD\'D0\'B8\'D0\'B5 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'B0\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'B3\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Packages\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b interfaces}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'98\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 \'D0\'B4\'D0\'BB\'D1\'8F \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'BE\'D0\'B2, \'D0\'BA\'D0\'BE\'D1\'82\'D0\'BE\'D1\'80\'D1\'8B\'D0\'B5 \'D0\'BC\'D0\'BE\'D0\'B6\'D0\'BD\'D0\'BE \'D0\'BA\'D1\'83\'D0\'BF\'D0\'B8\'D1\'82\'D1\'8C \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Author\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+VinLab Team \par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Version\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+1.0 \par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Date\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+2024 \par
+}}}{
+Definition in file {\b Buyable.java}.}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Buyable.java\par \pard\plain 
+{\tc\tcl2 \v src/main/interface/Buyable.java}
+{\xe \v src/main/interface/Buyable.java}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf17 package }interfaces;\par
+00002 \par
+00010 \par
+00019 {\cf17 public} {\cf17 interface }Buyable \{\par
+00020 \par
+00031     {\cf18 double} buy({\cf18 int} quantity);\par
+00032 \par
+00041     {\cf18 boolean} isAvailable({\cf18 int} quantity);\par
+00042 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+src/main/Main.java File Reference\par \pard\plain 
+{\tc\tcl2 \v src/main/Main.java}
+{\xe \v src/main/Main.java}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'93\'D0\'BB\'D0\'B0\'D0\'B2\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D0\'BF\'D1\'80\'D0\'B8\'D0\'BB\'D0\'BE\'D0\'B6\'D0\'B5\'D0\'BD\'D0\'B8\'D1\'8F Vinlab. }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 import entities.Product;}\par
+{\f2 import entities.DiscountedProduct;}\par
+{\f2 import interfaces.Buyable;}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b main.Main}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Packages\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b main}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D0\'93\'D0\'BB\'D0\'B0\'D0\'B2\'D0\'BD\'D1\'8B\'D0\'B9 \'D0\'BA\'D0\'BB\'D0\'B0\'D1\'81\'D1\'81 \'D0\'BF\'D1\'80\'D0\'B8\'D0\'BB\'D0\'BE\'D0\'B6\'D0\'B5\'D0\'BD\'D0\'B8\'D1\'8F Vinlab. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Author\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+VinLab Team \par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Version\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+1.0 \par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Date\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+2024 \par
+}}}{
+Definition in file {\b Main.java}.}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Main.java\par \pard\plain 
+{\tc\tcl2 \v src/main/Main.java}
+{\xe \v src/main/Main.java}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf17 package }main;\par
+00002 \par
+00003 {\cf17 import} entities.Product;\par
+00004 {\cf17 import} entities.DiscountedProduct;\par
+00005 {\cf17 import} interfaces.Buyable;\par
+00006 \par
+00014 \par
+00036 {\cf17 public} {\cf17 class }Main \{\par
+00037 \par
+00045     {\cf17 public} {\cf17 static} {\cf18 void} main(String[] args) \{\par
+00046         {\cf20 // \'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D0\'B1\'D0\'B0\'D0\'B7\'D0\'BE\'D0\'B2\'D0\'BE\'D0\'B3\'D0\'BE \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0}\par
+00047         Product product = {\cf17 new} Product(1, {\cf22 "Laptop"}, 1000.0, 5, {\cf22 "Gaming laptop"});\par
+00048         demonstrateProduct(product);\par
+00049 \par
+00050         {\cf20 // \'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 \'D1\'81\'D0\'BE \'D1\'81\'D0\'BA\'D0\'B8\'D0\'B4\'D0\'BA\'D0\'BE\'D0\'B9}\par
+00051         DiscountedProduct discountedProduct = {\cf17 new} DiscountedProduct(2, {\cf22 "Smartphone"}, 500.0, 10, 15.0);\par
+00052         demonstrateProduct(discountedProduct);\par
+00053 \par
+00054         {\cf20 // \'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'87\'D0\'B5\'D1\'80\'D0\'B5\'D0\'B7 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81}\par
+00055         demonstrateBuyableInterface(product);\par
+00056         demonstrateBuyableInterface(discountedProduct);\par
+00057     \}\par
+00058 \par
+00063     {\cf17 private} {\cf17 static} {\cf18 void} demonstrateProduct(Product product) \{\par
+00064         System.out.println({\cf22 "=== \'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'82\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80\'D0\'B0 ==="});\par
+00065         System.out.println({\cf22 "\'D0\'A2\'D0\'BE\'D0\'B2\'D0\'B0\'D1\'80: "} + product);\par
+00066         System.out.println({\cf22 "\'D0\'94\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'BD\'D0\'BE 3 \'D0\'B5\'D0\'B4\'D0\'B8\'D0\'BD\'D0\'B8\'D1\'86\'D1\'8B: "} + product.isAvailable(3));\par
+00067 \par
+00068         {\cf19 try} \{\par
+00069             {\cf18 double} total = product.buy(2);\par
+00070             System.out.printf({\cf22 "\'D0\'9A\'D1\'83\'D0\'BF\'D0\'BB\'D0\'B5\'D0\'BD\'D0\'BE 2 \'D0\'B5\'D0\'B4\'D0\'B8\'D0\'BD\'D0\'B8\'D1\'86\'D1\'8B. \'D0\'9E\'D0\'B1\'D1\'89\'D0\'B0\'D1\'8F \'D1\'81\'D1\'82\'D0\'BE\'D0\'B8\'D0\'BC\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C: %.2f\\n"}, total);\par
+00071             System.out.println({\cf22 "\'D0\'9E\'D1\'81\'D1\'82\'D0\'B0\'D1\'82\'D0\'BE\'D0\'BA \'D0\'BD\'D0\'B0 \'D1\'81\'D0\'BA\'D0\'BB\'D0\'B0\'D0\'B4\'D0\'B5: "} + product.getStockQuantity());\par
+00072         \} {\cf19 catch} (IllegalArgumentException e) \{\par
+00073             System.out.println({\cf22 "\'D0\'9E\'D1\'88\'D0\'B8\'D0\'B1\'D0\'BA\'D0\'B0 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8: "} + e.getMessage());\par
+00074         \}\par
+00075         System.out.println();\par
+00076     \}\par
+00077 \par
+00082     {\cf17 private} {\cf17 static} {\cf18 void} demonstrateBuyableInterface(Buyable item) \{\par
+00083         System.out.println({\cf22 "=== \'D0\'94\'D0\'B5\'D0\'BC\'D0\'BE\'D0\'BD\'D1\'81\'D1\'82\'D1\'80\'D0\'B0\'D1\'86\'D0\'B8\'D1\'8F \'D1\'87\'D0\'B5\'D1\'80\'D0\'B5\'D0\'B7 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81 ==="});\par
+00084         System.out.println({\cf22 "\'D0\'94\'D0\'BE\'D1\'81\'D1\'82\'D1\'83\'D0\'BF\'D0\'BD\'D0\'BE 5 \'D0\'B5\'D0\'B4\'D0\'B8\'D0\'BD\'D0\'B8\'D1\'86: "} + item.isAvailable(5));\par
+00085 \par
+00086         {\cf19 try} \{\par
+00087             {\cf18 double} total = item.buy(1);\par
+00088             System.out.printf({\cf22 "\'D0\'9A\'D1\'83\'D0\'BF\'D0\'BB\'D0\'B5\'D0\'BD\'D0\'BE \'D1\'87\'D0\'B5\'D1\'80\'D0\'B5\'D0\'B7 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81. \'D0\'A1\'D1\'82\'D0\'BE\'D0\'B8\'D0\'BC\'D0\'BE\'D1\'81\'D1\'82\'D1\'8C: %.2f\\n"}, total);\par
+00089         \} {\cf19 catch} (IllegalArgumentException e) \{\par
+00090             System.out.println({\cf22 "\'D0\'9E\'D1\'88\'D0\'B8\'D0\'B1\'D0\'BA\'D0\'B0 \'D0\'BF\'D0\'BE\'D0\'BA\'D1\'83\'D0\'BF\'D0\'BA\'D0\'B8 \'D1\'87\'D0\'B5\'D1\'80\'D0\'B5\'D0\'B7 \'D0\'B8\'D0\'BD\'D1\'82\'D0\'B5\'D1\'80\'D1\'84\'D0\'B5\'D0\'B9\'D1\'81: "} + e.getMessage());\par
+00091         \}\par
+00092         System.out.println();\par
+00093     \}\par
+00094 \}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par 
+\pard\plain 
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}

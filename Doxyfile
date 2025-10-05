@@ -1,0 +1,20 @@
+PROJECT_NAME           = "VinLab Project"
+PROJECT_NUMBER         = 1.0
+OUTPUT_DIRECTORY       = doc/
+INPUT                  = src/
+RECURSIVE              = YES
+FILE_PATTERNS          = *.java
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+GENERATE_RTF           = YES
+RTF_OUTPUT             = rtf/
+HTML_OUTPUT            = html/
+ALIASES                = "brief=\brief" \
+                         "details=\detaileddescription" \
+                         "return=\return" \
+                         "param=\param"
