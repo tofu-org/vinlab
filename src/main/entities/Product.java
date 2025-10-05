@@ -216,3 +216,4 @@ public class Product implements Buyable {
                            id, name, price, stockQuantity);
     }
 }
+
