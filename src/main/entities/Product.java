@@ -7,7 +7,7 @@ import interfaces.Buyable;
  * @brief Класс товара для системы Vinlab
  * @author VinLab Team
  * @version 1.0
- * @date 2024
+ * @date 2025
  */
 
 /**
@@ -216,4 +216,6 @@ public class Product implements Buyable {
                            id, name, price, stockQuantity);
     }
 }
+
+
 

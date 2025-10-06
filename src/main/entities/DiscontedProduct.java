@@ -7,7 +7,7 @@ import interfaces.Buyable;
  * @brief Производный класс товара со скидкой
  * @author VinLab Team
  * @version 1.0
- * @date 2024
+ * @date 2025
  */
 
 /**
