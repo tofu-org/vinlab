@@ -29,7 +29,7 @@ import interfaces.Buyable;
  *
  * Пример использования системы:
  * @code
- * Product bottle = new Product(1, "Вино", 1000.0, 10);
+ * Product bottles = new Product(1, "Вино", 1000.0, 10);
  * double total = bottle.buy(2);
  * @endcode
  */
