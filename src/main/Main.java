@@ -9,7 +9,7 @@ import interfaces.Buyable;
  * @brief Главный класс приложения Vinlab
  * @author VinLab Team
  * @version 1.0
- * @date 2024
+ * @date 2025
  */
 
 /**
@@ -29,8 +29,8 @@ import interfaces.Buyable;
  *
  * Пример использования системы:
  * @code
- * Product laptop = new Product(1, "Laptop", 1000.0, 10);
- * double total = laptop.buy(2); // Покупка 2 ноутбуков
+ * Product bottle = new Product(1, "Вино", 1000.0, 10);
+ * double total = bottle.buy(2);
  * @endcode
  */
 public class Main {

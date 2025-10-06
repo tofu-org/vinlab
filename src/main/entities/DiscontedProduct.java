@@ -91,6 +91,11 @@ public class DiscountedProduct extends Product {
     @Override
     public String toString() {
         return String.format("DiscountedProduct{id=%d, name='%s', price=%.2f, discount=%.1f%%, stock=%d}",
-                           getId(), getName(), getDiscountedPrice(), discountPercent, getStockQuantity());
+                getId(),
+                getName(),
+                getDiscountedPrice(),
+                discountPercent,
+                getStockQuantity()
+        );
     }
 }
