@@ -44,11 +44,11 @@ public class Main {
      */
     public static void main(String[] args) {
         // Демонстрация базового товара
-        Product product = new Product(1, "Laptop", 1000.0, 5, "Gaming laptop");
+        Product product = new Product(1, "Vine", 1000.0, 5, "Proseco");
         demonstrateProduct(product);
 
         // Демонстрация товара со скидкой
-        DiscountedProduct discountedProduct = new DiscountedProduct(2, "Smartphone", 500.0, 10, 15.0);
+        DiscountedProduct discountedProduct = new DiscountedProduct(2, "Shato", 500.0, 10, 15.0);
         demonstrateProduct(discountedProduct);
 
         // Демонстрация через интерфейс
