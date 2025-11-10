@@ -1,4 +1,4 @@
-package interfaces;
+package com.tofu.vinlab.interfaces;
 
 /**
  * @file Buyable.java

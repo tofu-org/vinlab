@@ -1,8 +1,8 @@
-package main;
+package com.tofu.vinlab;
 
-import entities.Product;
-import entities.DiscountedProduct;
-import interfaces.Buyable;
+import com.tofu.vinlab.entities.Product;
+import com.tofu.vinlab.entities.DiscountedProduct;
+import com.tofu.vinlab.interfaces.Buyable;
 
 /**
  * @file Main.java

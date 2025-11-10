@@ -1,6 +1,4 @@
-package entities;
-
-import interfaces.Buyable;
+package com.tofu.vinlab.entities;
 
 /**
  * @file DiscountedProduct.java

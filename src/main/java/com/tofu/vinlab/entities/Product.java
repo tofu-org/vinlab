@@ -1,6 +1,6 @@
-package entities;
+package com.tofu.vinlab.entities;
 
-import interfaces.Buyable;
+import com.tofu.vinlab.interfaces.Buyable;
 
 /**
  * @file Product.java
