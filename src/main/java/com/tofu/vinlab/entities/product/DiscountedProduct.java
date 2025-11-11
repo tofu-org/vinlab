@@ -8,10 +8,6 @@ package com.tofu.vinlab.entities.product;
  * @date 2025
  */
 
-import java.util.logging.Logger;
-
-import com.tofu.vinlab.Main;
-
 /**
  * @class DiscountedProduct
  * @brief Класс товара со скидкой, наследуется от Product
