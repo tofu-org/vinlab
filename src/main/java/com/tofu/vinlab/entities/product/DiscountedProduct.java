@@ -1,4 +1,4 @@
-package com.tofu.vinlab.entities;
+package com.tofu.vinlab.entities.product;
 
 /**
  * @file DiscountedProduct.java
@@ -7,6 +7,10 @@ package com.tofu.vinlab.entities;
  * @version 1.0
  * @date 2025
  */
+
+import java.util.logging.Logger;
+
+import com.tofu.vinlab.Main;
 
 /**
  * @class DiscountedProduct

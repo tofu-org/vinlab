@@ -1,4 +1,6 @@
-package com.tofu.vinlab.entities;
+package com.tofu.vinlab.entities.order;
+
+import com.tofu.vinlab.entities.product.Product;
 
 public class OrderItem {
     private int quantity;

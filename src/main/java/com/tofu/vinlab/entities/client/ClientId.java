@@ -1,4 +1,4 @@
-package com.tofu.vinlab.entities;
+package com.tofu.vinlab.entities.client;
 
 public class ClientId {
     private long value;

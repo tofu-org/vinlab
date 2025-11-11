@@ -1,4 +1,4 @@
-package com.tofu.vinlab.entities;
+package com.tofu.vinlab.entities.product;
 
 import com.tofu.vinlab.interfaces.Buyable;
 
