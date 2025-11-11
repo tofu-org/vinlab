@@ -3,11 +3,10 @@ package com.tofu.vinlab.entities.order;
 import java.util.List;
 import java.util.logging.Logger;
 
-import com.tofu.vinlab.Main;
 import com.tofu.vinlab.entities.client.ClientId;
 
 public class Order {
-    private static final Logger logger = Logger.getLogger(Main.class.getName());
+    private static final Logger logger = Logger.getLogger(Order.class.getName());
 
     private Integer id;
 

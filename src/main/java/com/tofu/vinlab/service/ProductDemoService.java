@@ -2,12 +2,11 @@ package com.tofu.vinlab.service;
 
 import java.util.logging.Logger;
 
-import com.tofu.vinlab.Main;
 import com.tofu.vinlab.entities.product.Product;
 import com.tofu.vinlab.interfaces.Buyable;
 
 public class ProductDemoService {
-    private static final Logger logger = Logger.getLogger(Main.class.getName());
+    private static final Logger logger = Logger.getLogger(ProductDemoService.class.getName());
 
     public ProductDemoService() {}
 
